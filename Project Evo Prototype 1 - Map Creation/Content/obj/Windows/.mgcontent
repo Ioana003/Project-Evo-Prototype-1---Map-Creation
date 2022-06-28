@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/ioana/source/repos/Project Evo Prototype 1 - Map Creation/Project Evo Prototype 1 - Map Creation/Content/text_default.spritefont</File>
+    <File>C:/Users/ioana/source/repos/Project Evo Prototype 1 - Map Creation/Project Evo Prototype 1 - Map Creation/Content/text_default2.spritefont</File>
+    <File>C:/Users/ioana/source/repos/Project Evo Prototype 1 - Map Creation/Project Evo Prototype 1 - Map Creation/Content/textRectangle.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
