@@ -7373,25 +7373,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ioana\\.nuget\\packages\\": {},
+    "C:\\Users\\Year12\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ioana\\Source\\Repos\\Project-Evo-Prototype-1---Map-Creation\\Project Evo Prototype 1 - Map Creation\\Project Evo Prototype 1 - Map Creation.csproj",
+      "projectUniqueName": "C:\\Users\\Year12\\Source\\Repos\\Project-Evo-Prototype-1---Map-Creation\\Project Evo Prototype 1 - Map Creation\\Project Evo Prototype 1 - Map Creation.csproj",
       "projectName": "Project Evo Prototype 1 - Map Creation",
-      "projectPath": "C:\\Users\\ioana\\Source\\Repos\\Project-Evo-Prototype-1---Map-Creation\\Project Evo Prototype 1 - Map Creation\\Project Evo Prototype 1 - Map Creation.csproj",
-      "packagesPath": "C:\\Users\\ioana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ioana\\Source\\Repos\\Project-Evo-Prototype-1---Map-Creation\\Project Evo Prototype 1 - Map Creation\\obj\\",
+      "projectPath": "C:\\Users\\Year12\\Source\\Repos\\Project-Evo-Prototype-1---Map-Creation\\Project Evo Prototype 1 - Map Creation\\Project Evo Prototype 1 - Map Creation.csproj",
+      "packagesPath": "C:\\Users\\Year12\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Year12\\Source\\Repos\\Project-Evo-Prototype-1---Map-Creation\\Project Evo Prototype 1 - Map Creation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ioana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Year12\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -7438,12 +7438,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -7452,7 +7446,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

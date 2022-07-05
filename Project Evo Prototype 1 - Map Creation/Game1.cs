@@ -22,11 +22,14 @@ namespace Project_Evo_Prototype_1___Map_Creation
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            _graphics.PreferredBackBufferHeight = 1000;
+            _graphics.PreferredBackBufferWidth = 1000;
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+
 
             base.Initialize();
         }
@@ -57,6 +60,10 @@ namespace Project_Evo_Prototype_1___Map_Creation
             if (mouseManager.CheckIfClicked(textBoxRectangle) == true)
             {
                 allowText = true;
+            }
+            else
+            {
+                allowText = false;
             }
 
             base.Update(gameTime);

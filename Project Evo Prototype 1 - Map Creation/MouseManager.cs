@@ -26,7 +26,10 @@ namespace Project_Evo_Prototype_1___Map_Creation
                 {
                     hasclicked = true;
                 }
-                else
+            }
+            else
+            {
+                if(Mouse.GetState().LeftButton == ButtonState.Pressed)
                 {
                     hasclicked = false;
                 }
