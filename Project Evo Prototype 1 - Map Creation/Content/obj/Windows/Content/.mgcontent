@@ -4,9 +4,9 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Year12/Source/Repos/Project-Evo-Prototype-1---Map-Creation/Project Evo Prototype 1 - Map Creation/Content/text_default.spritefont</File>
-    <File>C:/Users/Year12/Source/Repos/Project-Evo-Prototype-1---Map-Creation/Project Evo Prototype 1 - Map Creation/Content/text_default2.spritefont</File>
-    <File>C:/Users/Year12/Source/Repos/Project-Evo-Prototype-1---Map-Creation/Project Evo Prototype 1 - Map Creation/Content/textRectangle.png</File>
+    <File>C:/Users/ioana/Desktop/Map Creation Prot1/Project Evo Prototype 1 - Map Creation/Content/text_default.spritefont</File>
+    <File>C:/Users/ioana/Desktop/Map Creation Prot1/Project Evo Prototype 1 - Map Creation/Content/text_default2.spritefont</File>
+    <File>C:/Users/ioana/Desktop/Map Creation Prot1/Project Evo Prototype 1 - Map Creation/Content/textRectangle.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

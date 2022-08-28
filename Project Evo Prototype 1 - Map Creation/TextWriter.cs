@@ -13,7 +13,7 @@ namespace Project_Evo_Prototype_1___Map_Creation
         private char characterInputted = ' ';
         private string inputtedString = "";
         private bool stopTyping = false;
-        private string[] charactersArrayForWriting = new string[10];
+        private string[] charactersArrayForWriting = new string[8];
 
         public TextWriter()
         {
@@ -104,6 +104,11 @@ namespace Project_Evo_Prototype_1___Map_Creation
 
 
             spriteBatch.DrawString(spritefont, inputtedString, new Vector2(textPos.X, textPos.Y), Color.Black);
+        }
+
+        public string GetInputtedString()
+        {
+            return inputtedString;
         }
 
     }

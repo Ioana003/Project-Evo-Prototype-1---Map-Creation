@@ -16,6 +16,12 @@ namespace Project_Evo_Prototype_1___Map_Creation
         private MouseManager mouseManager = new MouseManager();
         private TextWriter textWriter = new TextWriter();
         private bool allowText = false;
+        private const int SIZE_OF_CELL = 10;
+        private float[,] numberOfCells;
+        private NoiseMaker noiseMaker = new NoiseMaker();
+        private float[][] perlinNoise;
+        private bool showTyping = true;
+        private Rectangle cellRect;
 
         public Game1()
         {
@@ -47,6 +53,10 @@ namespace Project_Evo_Prototype_1___Map_Creation
             font_def = Content.Load<SpriteFont>("text_default2");
 
             textWriter = new TextWriter(textBoxRectangle);
+
+            numberOfCells = new float[Window.ClientBounds.Width / SIZE_OF_CELL, Window.ClientBounds.Height / SIZE_OF_CELL];
+            //This makes a grid of all the cells that can be used/made for the area
+
         }
 
         protected override void Update(GameTime gameTime)
@@ -56,15 +66,33 @@ namespace Project_Evo_Prototype_1___Map_Creation
 
             // TODO: Add your update logic here
 
+            if (showTyping == true)
+            {
+                if (mouseManager.CheckIfClicked(textBoxRectangle) == true)
+                {
+                    allowText = true;
+                }
+                else
+                {
+                    allowText = false;
+                }
+            }
 
-            if (mouseManager.CheckIfClicked(textBoxRectangle) == true)
+            if (Keyboard.GetState().IsKeyDown(Keys.Enter))
             {
-                allowText = true;
+                showTyping = false;
+
+                perlinNoise = noiseMaker.GeneratePerlinhNoise(noiseMaker.GenerateWhiteNoise(Window.ClientBounds.Width, Window.ClientBounds.Height, int.Parse(textWriter.GetInputtedString())), 4);
+
+                for (int i = 0; i <= numberOfCells.GetUpperBound(0); i++)
+                {
+                    for (int j = 0; j <= numberOfCells.GetUpperBound(1); j++)
+                    {
+                        numberOfCells[i, j] = perlinNoise[i][j];
+                    }
+                }
             }
-            else
-            {
-                allowText = false;
-            }
+
 
             base.Update(gameTime);
         }
@@ -77,11 +105,40 @@ namespace Project_Evo_Prototype_1___Map_Creation
 
             _spriteBatch.Begin();
 
-            _spriteBatch.Draw(textBoxTexture, textBoxRectangle, Color.Gray);
-
-            if (allowText == true)
+            if (showTyping == true)
             {
-                textWriter.WriteText(_spriteBatch, font_def, inputString);
+                _spriteBatch.Draw(textBoxTexture, textBoxRectangle, Color.Gray);
+
+                if (allowText == true)
+                {
+                    textWriter.WriteText(_spriteBatch, font_def, inputString);
+                }
+            }
+
+            else
+            {
+                for(int i = 0; i <= numberOfCells.GetUpperBound(0); i++)
+                {
+                    for(int j = 0; j <= numberOfCells.GetUpperBound(1); j++)
+                    {
+                        if (numberOfCells[i, j] < 0.5 && numberOfCells[i, j] > 0.4)
+                        {
+                            _spriteBatch.Draw(textBoxTexture, new Rectangle(SIZE_OF_CELL * i, SIZE_OF_CELL * j, SIZE_OF_CELL, SIZE_OF_CELL), Color.CornflowerBlue);
+                        }
+                        if (numberOfCells[i, j] <= 0.4 && numberOfCells[i, j] > 0.3)
+                        {
+                            _spriteBatch.Draw(textBoxTexture, new Rectangle(SIZE_OF_CELL * i, SIZE_OF_CELL * j, SIZE_OF_CELL, SIZE_OF_CELL), Color.Blue);
+                        }
+                        if (numberOfCells[i, j] <= 0.3)
+                        {
+                            _spriteBatch.Draw(textBoxTexture, new Rectangle(SIZE_OF_CELL * i, SIZE_OF_CELL * j, SIZE_OF_CELL, SIZE_OF_CELL), Color.DarkBlue);
+                        }
+                        if (numberOfCells[i, j] >= 0.5 && numberOfCells[i, j] < 0.8)
+                        {
+                            _spriteBatch.Draw(textBoxTexture, new Rectangle(SIZE_OF_CELL * i, SIZE_OF_CELL * j, SIZE_OF_CELL, SIZE_OF_CELL), Color.Beige);
+                        }
+                    }
+                }
             }
 
             _spriteBatch.End();

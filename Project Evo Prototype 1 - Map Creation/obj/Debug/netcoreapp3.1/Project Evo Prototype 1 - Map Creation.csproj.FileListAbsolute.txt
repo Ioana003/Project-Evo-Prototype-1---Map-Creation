@@ -115,3 +115,43 @@ C:\Users\Year12\Source\Repos\Project-Evo-Prototype-1---Map-Creation\Project Evo 
 C:\Users\Year12\Source\Repos\Project-Evo-Prototype-1---Map-Creation\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.dll
 C:\Users\Year12\Source\Repos\Project-Evo-Prototype-1---Map-Creation\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.pdb
 C:\Users\Year12\Source\Repos\Project-Evo-Prototype-1---Map-Creation\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.genruntimeconfig.cache
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Content\textRectangle.xnb
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Content\text_default.xnb
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Content\text_default2.xnb
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.exe
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.deps.json
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.runtimeconfig.json
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.runtimeconfig.dev.json
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.pdb
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\SharpDX.XInput.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.csproj.AssemblyReference.cache
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.AssemblyInfoInputs.cache
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.AssemblyInfo.cs
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.csproj.CoreCompileInputs.cache
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.csproj.CopyComplete
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.dll
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.pdb
+C:\Users\ioana\Desktop\Map Creation Prot1\Project Evo Prototype 1 - Map Creation\obj\Debug\netcoreapp3.1\Project Evo Prototype 1 - Map Creation.genruntimeconfig.cache
